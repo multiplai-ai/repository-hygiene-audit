@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repository Hygiene Audit"
+  short_description: "Audit repositories for structural drift safely"
+  default_prompt: "Use $repository-hygiene-audit to scan my repositories and produce a read-only cleanup report."

@@ -1,0 +1,23 @@
+context_dir: context
+allowed_context_dirs:
+- foundations
+- projects
+- reporting
+- functions
+- entities
+- decisions
+- references
+- legacy
+allowed_context_files:
+- README.md
+legacy_context_map:
+  strategy: foundations/
+  voice: foundations/brand-voice.md
+  content: functions/content/
+  analysis: reporting/analyses/
+  planning: projects/active/<project-id>/
+project_statuses:
+- active
+- paused
+- completed
+- cancelled
